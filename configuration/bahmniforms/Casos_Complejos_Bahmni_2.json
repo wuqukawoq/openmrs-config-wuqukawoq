@@ -1,0 +1,73 @@
+{
+  "formJson": {
+    "id": 159,
+    "uuid": "31a3f964-cc4d-4c18-b1e2-dca951a305d1",
+    "name": "Casos Complejos Bahmni",
+    "version": "2",
+    "published": true,
+    "auditInfo": {
+      "creator": {
+        "uuid": "A4F30A1B-5EB9-11DF-A648-37A07F9C90FB",
+        "display": "daemon",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://ec2-100-28-162-120.compute-1.amazonaws.com/openmrs/ws/rest/v1/user/A4F30A1B-5EB9-11DF-A648-37A07F9C90FB",
+            "resourceAlias": "user"
+          }
+        ]
+      },
+      "dateCreated": "2025-07-30T08:35:58.000+0000",
+      "changedBy": {
+        "uuid": "51ea9909-faa3-11ef-b94d-401a58539374",
+        "display": "superman",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://ec2-100-28-162-120.compute-1.amazonaws.com/openmrs/ws/rest/v1/user/51ea9909-faa3-11ef-b94d-401a58539374",
+            "resourceAlias": "user"
+          }
+        ]
+      },
+      "dateChanged": "2025-08-05T12:08:23.000+0000"
+    },
+    "resources": [
+      {
+        "value": "{\"name\":\"Casos Complejos Bahmni\",\"id\":159,\"uuid\":\"31a3f964-cc4d-4c18-b1e2-dca951a305d1\",\"defaultLocale\":\"en\",\"controls\":[{\"type\":\"section\",\"label\":{\"translationKey\":\"SECTION_1\",\"type\":\"label\",\"value\":\"Detalle clínicos de la visita\",\"id\":\"1\"},\"properties\":{\"addMore\":false,\"location\":{\"column\":0,\"row\":0}},\"id\":\"1\",\"controls\":[{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"OBSERVATIONS_ON_TREATMENT_20\",\"id\":\"20\",\"units\":\"\",\"type\":\"label\",\"value\":\"Observaciones Clinicas:\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"column\":0,\"row\":0}},\"id\":\"20\",\"concept\":{\"name\":\"Observations on treatment\",\"uuid\":\"5e18101d-72c3-43bc-80e2-bf183ec7f257\",\"datatype\":\"Text\",\"conceptClass\":\"Misc\",\"conceptHandler\":null,\"answers\":[],\"properties\":{\"allowDecimal\":null}},\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null},{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"PRESIÓN_ARTERIAL_DIASTÓLICA_7\",\"id\":\"7\",\"units\":\"\",\"type\":\"label\",\"value\":\"/mmHg\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"column\":0,\"row\":1},\"abnormal\":false},\"id\":\"7\",\"concept\":{\"name\":\"Presión arterial diastólica\",\"uuid\":\"5086AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\"datatype\":\"Numeric\",\"conceptClass\":\"Test\",\"conceptHandler\":null,\"answers\":[],\"properties\":{\"allowDecimal\":false}},\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null},{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"PULSE_8\",\"id\":\"8\",\"units\":\"(beats/min)\",\"type\":\"label\",\"value\":\"Pulso:\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"column\":0,\"row\":1},\"abnormal\":false},\"id\":\"8\",\"concept\":{\"name\":\"Pulse\",\"uuid\":\"5087AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\"description\":{\"value\":\"Patient pulse rate, as measured with a peripheral oximeter.\",\"translationKey\":\"PULSE_8_DESC\"},\"datatype\":\"Numeric\",\"conceptClass\":\"Finding\",\"conceptHandler\":null,\"answers\":[],\"properties\":{\"allowDecimal\":false}},\"units\":\"beats/min\",\"hiNormal\":100,\"lowNormal\":60,\"hiAbsolute\":230,\"lowAbsolute\":0},{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"TEMPERATURE_(C)_9\",\"id\":\"9\",\"units\":\"(C)\",\"type\":\"label\",\"value\":\"Temperatura:\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"column\":0,\"row\":1},\"abnormal\":false},\"id\":\"9\",\"concept\":{\"name\":\"Temperature (C)\",\"uuid\":\"5088AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\"description\":{\"value\":\"Patient temperature in degrees centigrade.\",\"translationKey\":\"TEMPERATURE_(C)_9_DESC\"},\"datatype\":\"Numeric\",\"conceptClass\":\"Finding\",\"conceptHandler\":null,\"answers\":[],\"properties\":{\"allowDecimal\":true}},\"units\":\"C\",\"hiNormal\":37.7,\"lowNormal\":35,\"hiAbsolute\":47,\"lowAbsolute\":25},{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"WEIGHT_(KG)_10\",\"id\":\"10\",\"units\":\"(kg)\",\"type\":\"label\",\"value\":\"peso (kg)\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"column\":0,\"row\":2},\"abnormal\":false},\"id\":\"10\",\"concept\":{\"name\":\"Weight (kg)\",\"uuid\":\"5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\"description\":{\"value\":\"Patient&amp;#39;s weight in kilograms.\",\"translationKey\":\"WEIGHT_(KG)_10_DESC\"},\"datatype\":\"Numeric\",\"conceptClass\":\"Finding\",\"conceptHandler\":null,\"answers\":[],\"properties\":{\"allowDecimal\":true}},\"units\":\"kg\",\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":250,\"lowAbsolute\":0},{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"HEIGHT_(CM)_11\",\"id\":\"11\",\"units\":\"(cm)\",\"type\":\"label\",\"value\":\"Estatura:\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"column\":0,\"row\":3},\"abnormal\":false},\"id\":\"11\",\"concept\":{\"name\":\"Height (cm)\",\"uuid\":\"5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\"description\":{\"value\":\"Patient&#39;s height in centimeters.\",\"translationKey\":\"HEIGHT_(CM)_11_DESC\"},\"datatype\":\"Numeric\",\"conceptClass\":\"Finding\",\"conceptHandler\":null,\"answers\":[],\"properties\":{\"allowDecimal\":true}},\"units\":\"cm\",\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":272,\"lowAbsolute\":10},{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"HAEMOGLOBIN_12\",\"id\":\"12\",\"units\":\"(g/dL)\",\"type\":\"label\",\"value\":\"Hemoglobina:\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"column\":0,\"row\":4},\"abnormal\":false},\"id\":\"12\",\"concept\":{\"name\":\"Haemoglobin\",\"uuid\":\"21AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\"description\":{\"value\":\"The iron-containing respiratory pigment in red blood cells of vertebrates, consisting of about 6 percent heme and 94 percent globin.\",\"translationKey\":\"HAEMOGLOBIN_12_DESC\"},\"datatype\":\"Numeric\",\"conceptClass\":\"Test\",\"conceptHandler\":null,\"answers\":[],\"properties\":{\"allowDecimal\":true}},\"units\":\"g/dL\",\"hiNormal\":17.8,\"lowNormal\":10.4,\"hiAbsolute\":null,\"lowAbsolute\":0},{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"SERUM_GLUCOSE_14\",\"id\":\"14\",\"units\":\"(mg/dl)\",\"type\":\"label\",\"value\":\"Glucosa:\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"column\":0,\"row\":4},\"abnormal\":false},\"id\":\"14\",\"concept\":{\"name\":\"Serum glucose\",\"uuid\":\"887AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\"description\":{\"value\":\"Laboratory measurement of the glucose level in the blood in mg/ml\",\"translationKey\":\"SERUM_GLUCOSE_14_DESC\"},\"datatype\":\"Numeric\",\"conceptClass\":\"Test\",\"conceptHandler\":null,\"answers\":[],\"properties\":{\"allowDecimal\":false}},\"units\":\"mg/dl\",\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":0},{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"HEMOGLOBINA_GLICOSILADA_17\",\"id\":\"17\",\"units\":\"\",\"type\":\"label\",\"value\":\"A1C:(%)\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"column\":0,\"row\":4},\"abnormal\":false},\"id\":\"17\",\"concept\":{\"name\":\"hemoglobina glicosilada\",\"uuid\":\"159644AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\"datatype\":\"Numeric\",\"conceptClass\":\"Test\",\"conceptHandler\":null,\"answers\":[],\"properties\":{\"allowDecimal\":true}},\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null},{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"CLINICAL_MANAGEMENT_PLAN_COMMENT_18\",\"id\":\"18\",\"units\":\"\",\"type\":\"label\",\"value\":\"Plan Clinico:\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"column\":0,\"row\":5}},\"id\":\"18\",\"concept\":{\"name\":\"Clinical management plan comment\",\"uuid\":\"162749AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\"datatype\":\"Text\",\"conceptClass\":\"Question\",\"conceptHandler\":null,\"answers\":[],\"properties\":{\"allowDecimal\":null}},\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null}]}],\"events\":{\"onFormSave\":\"\",\"onFormInit\":\"\"},\"translationsUrl\":\"/openmrs/ws/rest/v1/bahmniie/form/translations\",\"referenceVersion\":\"1\",\"referenceFormUuid\":\"845355a8-5923-4f4b-b68d-503b0b702780\"}",
+        "dataType": "org.bahmni.customdatatype.datatype.FileSystemStorageDatatype",
+        "uuid": "c3349226-ea6a-4c6a-991a-57c414e5afc6"
+      }
+    ]
+  },
+  "translations": [
+    {
+      "locale": "en",
+      "labels": {
+        "SECTION_1": "Detalle clínicos de la visita"
+      },
+      "concepts": {
+        "HEIGHT_(CM)_11_DESC": "Patient&#39;s height in centimeters.",
+        "HEIGHT_(CM)_11": "Estatura:",
+        "SERUM_GLUCOSE_14_DESC": "Laboratory measurement of the glucose level in the blood in mg/ml",
+        "HAEMOGLOBIN_12_DESC": "The iron-containing respiratory pigment in red blood cells of vertebrates, consisting of about 6 percent heme and 94 percent globin.",
+        "PULSE_8_DESC": "Patient pulse rate, as measured with a peripheral oximeter.",
+        "SERUM_GLUCOSE_14": "Glucosa:",
+        "PULSE_8": "Pulso:",
+        "OBSERVATIONS_ON_TREATMENT_20": "Observaciones Clinicas:",
+        "TEMPERATURE_(C)_9": "Temperatura:",
+        "WEIGHT_(KG)_10_DESC": "Patient&amp;#39;s weight in kilograms.",
+        "PRESIÓN_ARTERIAL_DIASTÓLICA_7": "/mmHg",
+        "CLINICAL_MANAGEMENT_PLAN_COMMENT_18": "Plan Clinico:",
+        "HEMOGLOBINA_GLICOSILADA_17": "A1C:(%)",
+        "HAEMOGLOBIN_12": "Hemoglobina:",
+        "WEIGHT_(KG)_10": "peso (kg)",
+        "TEMPERATURE_(C)_9_DESC": "Patient temperature in degrees centigrade."
+      },
+      "formName": "Casos Complejos Bahmni",
+      "formUuid": null,
+      "version": "2",
+      "referenceVersion": null,
+      "referenceFormUuid": null
+    }
+  ]
+}

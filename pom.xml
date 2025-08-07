@@ -1,0 +1,44 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.wuqukawoq</groupId>
+  <artifactId>openmrs-config-wuqukawoq</artifactId>
+  <name>OpenMRS config - Wuqu' Kawoq – Maya Health Alliance</name>
+  <description>OpenMRS configuration for the Wuqu' Kawoq – Maya Health Alliance distribution</description>
+  <version>1.2.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <developers>
+    <developer>
+      <name>Wuqu' Kawoq – Maya Health Alliance</name>
+    </developer>
+  </developers>
+  <organization>
+    <name>Wuqu' Kawoq – Maya Health Alliance</name>
+    <url>https://www.wuqukawoq.org/</url>
+  </organization>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>create-distribution</id>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+            <configuration>
+              <appendAssemblyId>false</appendAssemblyId>
+              <descriptors>
+                <descriptor>src/main/assembly/assembly.xml</descriptor>
+              </descriptors>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>
